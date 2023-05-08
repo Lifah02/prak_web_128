@@ -8,5 +8,9 @@ class MahasiswaController extends \yii\web\Controller
     {
         return $this->render('profil');
     }
+    public function actionUbahBiodata()
+    {
+        return $this->render('ubahbiodata');
+    }
 
 }

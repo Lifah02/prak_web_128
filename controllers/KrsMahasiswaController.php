@@ -20,6 +20,10 @@ class KrsMahasiswaController extends \yii\web\Controller
     {
         return $this->render('delete');
     }
+    public function actionHapusMatakuliah()
+    {
+        return $this->render('hapusmatakuliah');
+    }
 
 
 }
